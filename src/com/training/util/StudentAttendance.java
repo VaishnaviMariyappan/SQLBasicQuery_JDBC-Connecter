@@ -16,11 +16,11 @@ System.out.println("percentage : " +f);
 if(f<75)
 {
 System.out.println("Are you medical cause?");
-System.out.println("Enter your choise");
+System.out.println("Enter your choice");
 System.out.println("1: yes");
 System.out.println("2: No");
-int choise=sc.nextInt();
-switch(choise)
+int choice=sc.nextInt();
+switch(choice)
 {
 case 1:
 System.out.println("you can sit an exam");
