@@ -17,8 +17,8 @@ if(f<75)
 {
 System.out.println("Are you medical cause?");
 System.out.println("Enter your choise");
-System.out.println("yes");
-System.out.println(" No");
+System.out.println("1: yes");
+System.out.println("2: No");
 int choise=sc.nextInt();
 switch(choise)
 {
